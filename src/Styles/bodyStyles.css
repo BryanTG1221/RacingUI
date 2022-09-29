@@ -1,0 +1,79 @@
+._BodyMain {
+    margin-top: 6px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.__BodyMain-TextAPI {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.__BodyMain-TextAPI-Content {
+    max-width: 17ch;
+    font-size: 58px;
+}
+
+.__BodyMain-TextInfo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.icon {
+    width: 35px;
+    color: red;
+}
+
+.__BodyMain-Pattern {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+._BodyMain-Visualizer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+._BodyMain-Visualizer-Content {
+    width: 70%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.backgroundContainerVisualizer {
+    width: 85%;
+    height: 65%;
+    background-color: red;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.visualizerImg {
+    position: absolute;
+    right: 140px;
+    height: 80%;
+}
+
+.backContainer{
+    background-color: red;
+}

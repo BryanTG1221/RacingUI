@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavBar } from './Nav/Nav';
+import { Body } from './body/Body';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <div className='NavMainContainer'>
         <NavBar />
       </div>
+      <Body />
     </>
   )
 }
