@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.NavMainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1366px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nameLogo {
+    color: #3D3536;
+}
+
+.UIname {
+    color: #F73948;
+}
+
+.menuList {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    color: #3D3536;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.linkMenuOptions {
+    text-decoration: none;
+    color: #3D3536;
+}
+
+.linkMenuOptions:hover {
+    cursor: pointer;
+    color: #F73948;
+}
+
+.SearchContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.searchBarContent {
+    width: 417px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F4F4F4;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ABABAB;
+}
+
+.btn {
+    width: 166px;
+    height: 55px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FE2B3C;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
