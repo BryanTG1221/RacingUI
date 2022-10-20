@@ -12,6 +12,9 @@ export function Teams () {
     
     return (
         <div className="_TeamsMain">
+            <div className="_TeamsMain__title">
+                <h1 className='titleTeams'>Teams</h1>
+            </div>
             {
                 cards.map((card) => (
                   <CardTeam key={card.name} name={card.name} color={card.color} />

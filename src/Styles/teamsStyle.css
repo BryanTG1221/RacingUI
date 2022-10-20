@@ -1,14 +1,18 @@
-* {
+._BodyTeams {
+    display: flex;
+    justify-content: center;
     box-sizing: border-box;
-    margin: 0;
+    margin-top: 15px;
 }
 
 ._TeamsMain {
-    width: 100%;
+    width: 1690px;
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 15px;
+    gap: 25px;
 }
 
 ._CardTeam {
@@ -35,4 +39,10 @@
 
 ._CardTeam__InfoContainer {
     margin-top: 10px;
+}
+
+._TeamsMain__title {
+    width: 1400px;
+    display: flex;
+    align-items: center;
 }
