@@ -26,5 +26,5 @@ app.use((req, res) => {
 
 // ======================> Inicializacion Express <======================
 app.listen(3001, () => {
-  console.log('Escuchando puerto 3000');
+  console.log('Escuchando puerto 3001');
 });

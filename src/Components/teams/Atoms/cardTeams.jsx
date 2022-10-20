@@ -6,7 +6,6 @@ export function CardTeam ({name,color}) {
             </div>
             <div className="_CardTeam__InfoContainer">
                 <h2>{name}</h2>
-                <p>Forza Ferrari</p>
             </div>
         </div>
     )
