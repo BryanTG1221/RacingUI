@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavBar } from './Nav/Nav';
 import { Body } from './body/Body';
+import { Drivers } from './drivers/Drivers';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <NavBar />
       </div>
       <Body />
+      <Drivers />
     </>
   )
 }
