@@ -11,7 +11,7 @@ export function Teams () {
     },[]);
     
     return (
-        <div className="_TeamsMain">
+        <div className="_TeamsMain" id='TeamsMain'>
             <div className="_TeamsMain__title">
                 <h1 className='titleTeams'>Teams</h1>
             </div>

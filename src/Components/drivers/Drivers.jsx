@@ -3,7 +3,7 @@ import '../../Styles/driversStyle.css';
 
 export function Drivers() {
     return (
-        <div className="__DriversContainer__Main">
+        <div className="__DriversContainer__Main" id='DriversMain'>
             <div className="DriversContainer__Content">
                 <h1>Drivers</h1>
                 <DriverCard />

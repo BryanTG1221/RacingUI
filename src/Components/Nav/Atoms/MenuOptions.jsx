@@ -4,10 +4,10 @@ export function MenuOptions () {
         <div className="MenuOptions">
             <ul className="menuList">
                 <li className="itemListMenu">
-                    <a href="#" className="linkMenuOptions">TEAMS</a>
+                    <a href="#TeamsMain" className="linkMenuOptions">TEAMS</a>
                 </li>
                 <li className="itemListMenu">
-                    <a href="#" className="linkMenuOptions">DRIVERS</a>
+                    <a href="#DriversMain" className="linkMenuOptions">DRIVERS</a>
                 </li>
                 <li className="itemListMenu">
                     <a href="#" className="linkMenuOptions">CIRCUITS</a>
