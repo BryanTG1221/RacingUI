@@ -1,7 +1,7 @@
 // ======================> Modulos Implementados <======================
 import express from "express";
 import cors from "cors";
-import {pool} from './conecctionDB.js';
+import { pool } from './conecctionDB.js';
 
 // ======================> Creacion Express <======================
 const app = express();
@@ -13,8 +13,13 @@ app.use(cors({
 
 // ======================> Rutas Express <======================
 
-app.get('/api/test', async (req, res) => {
+app.get('/api/teams', async (req, res) => {
   const [ResponseDB] = await pool.query('SELECT * FROM teams');
+  res.json(ResponseDB).status(200);
+});
+
+app.get('/api/drivers', async (req, res) => {
+  const [ResponseDB] = await pool.query('SELECT * FROM drivers');
   res.json(ResponseDB).status(200);
 });
 

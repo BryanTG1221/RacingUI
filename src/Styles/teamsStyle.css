@@ -46,3 +46,29 @@
     width: 1400px;
     display: flex;
 }
+
+.nameTeamContent {
+    display: flex;
+    gap: 5px;
+    max-width: 28ch;
+}
+
+.titleTeams {
+    font-size: 22px;
+}
+
+.secundaryColorName {
+    width: 6px;
+    height: 23px;
+    border-radius: 2px;
+}
+
+.__infoTeamContent-dataList{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.__infoTeamContent-title {
+    font-size: 20px;
+}

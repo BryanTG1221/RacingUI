@@ -1,7 +1,13 @@
 const API_URL = 'http://localhost:3001';
 
-export async function GetAllDataTest () {
-    const response = await fetch(`${API_URL}/api/test`);
+export async function GetAllDataTeams () {
+    const response = await fetch(`${API_URL}/api/teams`);
+    const data = await response.json();
+    return data;
+}
+
+export async function GetAllDataDrivers () {
+    const response = await fetch(`${API_URL}/api/drivers`);
     const data = await response.json();
     return data;
 }
