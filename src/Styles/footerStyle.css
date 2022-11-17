@@ -44,4 +44,31 @@
     height: max-content;
     border-left: #ffffff solid 1px;
     color: #ffffff;
+    justify-content: center;
+}
+
+.linkSocialMedia {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.OficcialPageLink__icon {
+    font-size: 30px;
+}
+
+.OficcialPageLink {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linksURL {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.LogoFooter__img {
+    width: 100px;
 }

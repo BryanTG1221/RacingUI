@@ -13,7 +13,9 @@ function App() {
         <NavBar />
       </div>
       <Body />
-      <Drivers />
+      <div className='sticky-container'>
+        <Drivers />
+      </div>
       <Footer />
     </>
   )

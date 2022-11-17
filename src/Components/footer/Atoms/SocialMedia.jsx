@@ -3,9 +3,9 @@ import {AiOutlineInstagram, AiFillFacebook, AiOutlineTwitter} from 'react-icons/
 export function SocialMedia () {
     return (
         <ul className="__FooterContainer-SocialMedia">            
-            <li> <AiOutlineInstagram /> Instagram</li>
-            <li> <AiFillFacebook/> Facebook </li>
-            <li> <AiOutlineTwitter /> Twitter </li>
+            <li className='linkSocialMedia'> <AiOutlineInstagram /> Instagram</li>
+            <li className='linkSocialMedia'> <AiFillFacebook/> Facebook </li>
+            <li className='linkSocialMedia'> <AiOutlineTwitter /> Twitter </li>
         </ul>
     )
 }

@@ -1,14 +1,20 @@
 .__DriversContainer__Main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    position: sticky;
+    top:0;
+    left:20;
+    padding: 10px;
 }
 
 .DriversContainer__Content {
-    width: 1366px;
+    position: sticky;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,17 +22,26 @@
 }
 
 .__DriversContainer-Content--Cards {
-    width: 1366px;
+    width: 100%;
+    height: 80vh;
     display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
     gap: 20px;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
+
+.__DriversContainer-Content--Cards::-webkit-scrollbar-track {
+    background: #000;
+}
+
 
 
 .DriverCard__Main {
     width: 424px;
     height: 654px;
     display: flex;
+    flex: 0 0 auto;
     flex-direction: column;
     border-radius: 20px;
     background: #FFFFFF;
@@ -107,7 +122,7 @@
 }
 
 .flagDrivers {
-    width: 32px;
+    width: 35px;
     height: 24px;
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
 }
