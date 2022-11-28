@@ -1,6 +1,6 @@
 import { DriverCard } from './Atoms/CardDrivers';
-import '../../Styles/driversStyle.css';
-import {GetAllDataDrivers} from '../../JS/getDataAPI.js';
+import '../../../Styles/driversStyle.css';
+import {GetAllDataDrivers} from '../../../JS/getDataAPI.js';
 import { useEffect, useState } from 'react';
 
 export function Drivers() {

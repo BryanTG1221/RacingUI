@@ -1,8 +1,7 @@
 // ======================> Modulos Implementados <======================
 import express from "express";
 import cors from "cors";
-import { pool } from './conecctionDB.js';
-
+import { router } from './routes.js';
 // ======================> Creacion Express <======================
 const app = express();
 
@@ -10,18 +9,8 @@ const app = express();
 app.use(cors({
   origin: 'http://127.0.0.1:5173'
 }));
-
-// ======================> Rutas Express <======================
-
-app.get('/api/teams', async (req, res) => {
-  const [ResponseDB] = await pool.query('SELECT * FROM teams');
-  res.json(ResponseDB).status(200);
-});
-
-app.get('/api/drivers', async (req, res) => {
-  const [ResponseDB] = await pool.query('SELECT * FROM drivers');
-  res.json(ResponseDB).status(200);
-});
+app.use(express.json());
+app.use(router);
 
 
 // ======================> Rutas NOT FOUND <======================

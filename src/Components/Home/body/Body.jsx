@@ -1,7 +1,7 @@
 import { TextAPI } from './Atoms/Text'
 import { Visualizer } from './Atoms/Visualizer';
 import { Teams } from '../teams/teams';
-import '../../Styles/bodyStyles.css';
+import '../../../Styles/bodyStyles.css';
 
 export function Body () {
     

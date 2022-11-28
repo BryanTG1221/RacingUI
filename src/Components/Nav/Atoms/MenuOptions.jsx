@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 export function MenuOptions () {
     return (
@@ -13,7 +14,7 @@ export function MenuOptions () {
                     <a href="#" className="linkMenuOptions">CIRCUITS</a>
                 </li>
                 <li className="itemListMenu">
-                    <a href="#" className="linkMenuOptions">DOCS</a>
+                    <Link to={'/docs'} className="linkMenuOptions">DOCS</Link>
                 </li>
             </ul>
         </div>

@@ -1,6 +1,6 @@
 import { CardTeam } from './Atoms/cardTeams';
-import {GetAllDataDrivers, GetAllDataTeams} from '../../JS/getDataAPI.js';
-import '../../Styles/teamsStyle.css';
+import {GetAllDataDrivers, GetAllDataTeams} from '../../../JS/getDataAPI.js';
+import '../../../Styles/teamsStyle.css';
 import {useEffect, useState } from "react"
 
 export function Teams () {

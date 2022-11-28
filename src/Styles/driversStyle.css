@@ -27,7 +27,7 @@
     align-items: center;
     flex-wrap: nowrap;
     gap: 20px;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .__DriversContainer-Content--Cards::-webkit-scrollbar-track {

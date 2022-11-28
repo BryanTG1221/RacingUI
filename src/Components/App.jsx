@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { NavBar } from './Nav/Nav';
-import { Body } from './body/Body';
-import { Drivers } from './drivers/Drivers';
 import { Footer } from './footer/Footer';
-import '../Styles/appStyles.css';
+import { HomePage } from './Home/HomePage';
+import { DocsPage } from './Docs/Docs';
+import { CrudPage } from './Crud/Crud';
+import { Route,Routes } from 'react-router-dom';
 
 function App() {
 
@@ -12,10 +13,11 @@ function App() {
       <div className='NavMainContainer'>
         <NavBar />
       </div>
-      <Body />
-      <div className='sticky-container'>
-        <Drivers />
-      </div>
+      <Routes>
+        <Route path='/'  element={ <HomePage /> }/>
+        <Route path='/docs' element={ <DocsPage /> } />
+        <Route path='/crud' element={ <CrudPage /> } />
+      </Routes>
       <Footer />
     </>
   )
