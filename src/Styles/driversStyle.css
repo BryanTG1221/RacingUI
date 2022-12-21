@@ -21,20 +21,18 @@
 }
 
 .__DriversContainer-Content--Cards {
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     gap: 20px;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .__DriversContainer-Content--Cards::-webkit-scrollbar-track {
     background: #000;
 }
-
-
 
 .DriverCard__Main {
     width: 424px;

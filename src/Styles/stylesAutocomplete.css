@@ -1,0 +1,68 @@
+.searchBarContainer {
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.searchBarContent {
+    width: 100%;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 4px 2px 13px rgba(0, 0, 0, 0.25);
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ABABAB;
+}
+
+.searchBarContent:focus {
+    outline: #F73948 solid 2px;
+}
+
+.searchBarPanel {
+    width: 500px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    border-left: #F4F4F4 1px solid;
+    border-right: #F4F4F4 1px solid;
+    border-radius: 5px;
+}
+.itemDriver {
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 2px;
+}
+
+.listaAutocomplete {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.itemAutocomplete {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.imgAutocomplete {
+    width: 70px;
+}
+
+.tittleAutocomplete {
+    color: black;
+    text-decoration: none;
+    border: none;
+}
+
+.itemDriver:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #F73948;
+}
+
+.itemDriver:hover .itemDriverName {
+    color: #F73948;
+}

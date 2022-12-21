@@ -1,4 +1,5 @@
 import { Form } from './Atoms/Form';
+import { SearchBar } from '../Nav/Atoms/searchBar';
 import '../../Styles/CrudPage.css';
 
 export function CrudPage () {

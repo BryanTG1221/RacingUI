@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+.leftSideDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .__MainCrud-Content {
     width: 100%;
     height: 100%;
@@ -113,8 +119,32 @@ input[type="file"] {
     cursor: pointer;
 }
 
-.btnSubmit{
+.btnSubmit {
     width: 200px;
+    height: 50px;
+    background-color: #FE2B3C;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btnPatch {
+    width: 200px;
+    height: 50px;
+    background-color: #FE2B3C;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btnDelete {
+    width: 150px;
     height: 50px;
     background-color: #FE2B3C;
     color: white;

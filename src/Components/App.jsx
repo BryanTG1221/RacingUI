@@ -15,8 +15,9 @@ function App() {
       </div>
       <Routes>
         <Route path='/'  element={ <HomePage /> }/>
-        <Route path='/docs' element={ <DocsPage /> } />
         <Route path='/crud' element={ <CrudPage /> } />
+        <Route path='/driver/:name' element={ <CrudPage /> } />
+        <Route path='/docs' element={ <DocsPage /> } />
       </Routes>
       <Footer />
     </>

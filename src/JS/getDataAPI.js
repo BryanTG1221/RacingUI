@@ -11,3 +11,9 @@ export async function GetAllDataDrivers () {
     const data = await response.json();
     return data;
 }
+
+export async function GetDriver (driverInfo) {
+    const response = await fetch(`${API_URL}/api/drivers/${driverInfo}`);
+    const data = await response.json();
+    return data;
+}

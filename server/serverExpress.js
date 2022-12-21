@@ -2,6 +2,8 @@
 import express from "express";
 import cors from "cors";
 import { router } from './routes.js';
+import chai from "chai";
+import chaiHttp from "chai-http";
 // ======================> Creacion Express <======================
 const app = express();
 

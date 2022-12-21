@@ -6,13 +6,11 @@ import '../../Styles/navStyles.css';
 
 export function NavBar () {
     return (
-        <nav className='navContainer'>
-            <LogoHeader />
-            <MenuOptions />
-            <div className='SearchContainer'>
-                <SearchBar />
-                <ButtonSearch />
-            </div>
-        </nav>
+        <>
+            <nav className='navContainer'>
+                <LogoHeader />
+                <MenuOptions />
+            </nav>
+        </>
     );
 }
