@@ -1,4 +1,5 @@
 import { TbCrown,TbTrophy,TbMedal } from "react-icons/tb";
+import Flag from "react-world-flags";
 
 export function DriverCard ({name,lastName,driverImage,worldChampionships,podiums,wins,gradientColor,countryFlag,number,helmetImg}) {
     return (
@@ -18,7 +19,7 @@ export function DriverCard ({name,lastName,driverImage,worldChampionships,podium
                             <p><b>{worldChampionships}</b></p>
                         </div>
                     </div>
-                    <img src={`https://countryflagsapi.com/png/${countryFlag}`} className="flagDrivers"/>
+                    <Flag code={countryFlag} className="flagDrivers"/>
                 </div>
                 <div className="DriverCard__Content-Stats">
                     <div className="DriverCard__Content-Stats--Container">
